@@ -1,6 +1,6 @@
 import React from "react";
-import { images } from "../../constants";
 
+import { images } from "../../constants";
 import "./AboutUs.css";
 
 const AboutUs = () => (
@@ -9,21 +9,23 @@ const AboutUs = () => (
     id="about"
   >
     <div className="app__aboutus-overlay flex__center">
-      <img src={images.G} alt="g letter" />
+      <img src={images.G} alt="G_overlay" />
     </div>
+
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
         <h1 className="headtext__cormorant">About Us</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Savor sophistication at its finest. Elevating dining to an art, our
-          restaurant promises a culinary journey that transcends taste,
-          embracing the essence of refined elegance.
+          Savor Sophistication At Its Finest. Elevating Dining To An Art, Our
+          Restaurant Promises A Culinary Journey That Transcends Taste,
+          Embracing The Essence Of Refined Elegance.
         </p>
         <button type="button" className="custom__button">
           Know More
         </button>
       </div>
+
       <div className="app__aboutus-content_knife flex__center">
         <img src={images.knife} alt="about_knife" />
       </div>
@@ -32,9 +34,9 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Our History</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">
-          Crafting moments since our inception, our restaurant weaves a tale of
-          culinary elegance, blending tradition with innovation in every
-          flavor-filled chapter. Welcome to a history of exquisite dining.
+          Crafting Moments Since Our Inception, Our Restaurant Weaves A Tale Of
+          Culinary Elegance, Blending Tradition With Innovation In Every
+          Flavor-Filled Chapter. Welcome To A History Of Exquisite Dining.
         </p>
         <button type="button" className="custom__button">
           Know More
