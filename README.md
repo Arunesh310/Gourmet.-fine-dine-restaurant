@@ -34,15 +34,15 @@ Start the development server:
 
 Visit http://localhost:3000 in your browser to view the application.
 
-Technologies Used
+Technologies Used:
 
 React: A JavaScript library for building user interfaces.
 BEM (Block Element Modifier): A methodology that helps you to create reusable and maintainable code.
 Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to help improve the project.
 
-License
+License:
 This project is licensed under the MIT License.
 
-Made by
+Made by:
 Arunesh Kumar
