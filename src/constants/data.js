@@ -59,23 +59,27 @@ const cocktails = [
 const awards = [
   {
     imgUrl: images.award02,
-    title: "Bib Gourmond",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Michelin Stars:",
+    subtitle:
+      "Recognizing culinary excellence, exceptional quality, and providing an outstanding dining experience.",
   },
   {
     imgUrl: images.award01,
-    title: "Rising Star",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "James Beard Awards:",
+    subtitle:
+      "Excellence in various categories, including chefs, restaurants, cookbook authors, and food journalists.",
   },
   {
     imgUrl: images.award05,
     title: "AA Hospitality",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    subtitle:
+      "Recognizing excellence and outstanding service in the hospitality industry, including hotels, restaurants, and other accommodations.",
   },
   {
     imgUrl: images.award03,
-    title: "Outstanding Chef",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur.",
+    title: "Chef Of The Year",
+    subtitle:
+      "Acknowledging culinary excellence, innovation, and skill demonstrated by a chef in their profession.",
   },
 ];
 
